@@ -37,9 +37,3 @@ class MainWindow(QMainWindow):
     
     def navigate_home(self):
         self.browser.setUrl(QUrl("https://google.com"))
-
-# RUNNING THE CODE 🔥
-app = QApplication(sys.argv)
-QApplication.setApplicationName("Sternet Browser")
-window = MainWindow()
-app.exec_()
