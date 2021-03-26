@@ -1,0 +1,10 @@
+*.vscode
+*.json
+*.bin
+*.log
+*.cph
+__pycache__
+__MACOSX
+__MACOSX__
+.__DS_Store
+._DS_Store
