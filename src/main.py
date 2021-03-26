@@ -15,16 +15,28 @@ class MainWindow(QMainWindow):
         navbar = QToolBar()
         self.addToolBar(navbar)
 
-        # back button
+        # back and forward buttons
         back_btn = QAction("Back", self)
         back_btn.triggered.connect(self.browser.back)
         navbar.addAction(back_btn)
 
-        # forward button
         forward_btn = QAction("Forward", self)
         forward_btn.triggered.connect(self.browser.forward)
         navbar.addAction(forward_btn)
 
+        # refresh button
+        refresh_btn = QAction("Refresh", self)
+        refresh_btn.triggered.connect(self.browser.reload)
+        navbar.addAction(refresh_btn)
+
+        # home button
+        home_btn = QAction("Home", self)
+        home_btn.triggered.connect(self.navigate_home)
+        navbar.addAction(home_btn)
+
+    
+    def navigate_home(self):
+        self.browser.setUrl(QUrl("https://google.com"))
 
 # RUNNING THE CODE 🔥
 app = QApplication(sys.argv)
