@@ -11,6 +11,20 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
+        # NAVBAR
+        navbar = QToolBar()
+        self.addToolBar(navbar)
+
+        # back button
+        back_btn = QAction("Back", self)
+        back_btn.triggered.connect(self.browser.back)
+        navbar.addAction(back_btn)
+
+        # forward button
+        forward_btn = QAction("Forward", self)
+        forward_btn.triggered.connect(self.browser.forward)
+        navbar.addAction(forward_btn)
+
 
 # RUNNING THE CODE 🔥
 app = QApplication(sys.argv)
