@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][images/screenshot.png]](https://github.com/IAmMaulik/Sternet)
+![Product Name Screen Shot](images/screenshot.png)
 
 The Sternet Wb Browser is the perfect web bowser for you!
 Here's why:
@@ -108,7 +108,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU Genera Public License v2 License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
