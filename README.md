@@ -1,6 +1,5 @@
 # Sternet Browser
 
-This is a fully functional web browser written entirely in python.
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
