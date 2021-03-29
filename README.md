@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 Note: If the last command does not work, try
 ```sh
-python main.py
+python main.pyw
 ````
 ## Contributing
 
