@@ -79,8 +79,13 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/IAmMaulik/Sternet.git
    ```
+2. Navigate To Directory
+  ```sh
+  cd Sternet
+  cd src
+  ```
 2. Install pip packages
    ```sh
    pip install -r requirements.txt
