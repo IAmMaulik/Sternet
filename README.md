@@ -55,7 +55,7 @@
 
 ![Product Name Screen Shot](images/screenshot.png)
 
-The Sternet Wb Browser is the perfect web bowser for you!
+The Sternet Web Browser is the perfect web bowser for you!
 Here's why:
 * You care about your privacy and don't want your information to be sold
 * You want a fully customisable experience with your browser
@@ -77,22 +77,22 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/IAmMaulik/Sternet.git
-   ```
+  ```sh
+  git clone https://github.com/IAmMaulik/Sternet.git
+  ```
 2. Navigate To Directory
   ```sh
   cd Sternet
   cd src
   ```
 2. Install pip packages
-   ```sh
-   pip install -r requirements.txt
-   ```
+  ```sh
+  pip install -r requirements.txt
+  ```
 3. Run the Program
-   ```sh
-   python3 main.pyw
-   ```
+  ```sh
+  python3 main.pyw
+  ```
 Note: If the last command does not work, try
 ```sh
 python main.pyw
